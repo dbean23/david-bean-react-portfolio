@@ -1,13 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PortfolioContainer from "../portfolio/portfolio-container";
 
-export default function() {
+
+export default function () { 
     return(
         <div>
-            <div>
-                <h2>Home Page</h2>
-            </div>
+            <h2>Home Page</h2>
             <PortfolioContainer />
         </div>
     )
-}
+}   
